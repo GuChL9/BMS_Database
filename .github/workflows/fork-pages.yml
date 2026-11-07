@@ -1,0 +1,56 @@
+name: Deploy fork preview
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fork-preview-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.repository == 'GuChL9/BMS_Database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Prepare preview configuration
+        run: |
+          cat > mkdocs.preview.yml <<'EOF'
+          INHERIT: mkdocs.yml
+          site_url: https://guchl9.github.io/BMS_Database/
+          repo_name: GuChL9/BMS_Database
+          repo_url: https://github.com/GuChL9/BMS_Database
+          EOF
+          printf '{# Comments disabled for fork preview. #}\n' > overrides/partials/comments.html
+      - run: python -m mkdocs build --strict -f mkdocs.preview.yml
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    if: github.repository == 'GuChL9/BMS_Database'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
