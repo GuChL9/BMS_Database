@@ -426,11 +426,62 @@ hide:
 
     <span id="practice" class="resource-category-anchor"></span>
 
-    === "ANOVA 课堂练习"
+    === "练习 1"
 
-        <section class="quiz-collection-section" id="anova-practice" data-export-title="ANOVA 课堂练习" data-export-group="practice-and-examples" data-export-group-title="不计分课堂练习（作考勤）" markdown="1">
+        <section class="quiz-collection-section" id="practice-chi-square" data-export-title="练习 1：Quiz-1 Chi-square test" data-export-group="practice-and-examples" data-export-group-title="不计分课堂练习（作考勤）" markdown="1">
 
-        ### One-way ANOVA 课堂练习 {#anova-practice-title .resource-panel-title}
+        ### 练习 1：Quiz-1 Chi-square test {#practice-chi-square-title .resource-panel-title}
+
+        <!--
+        source-attribution
+        原始材料：用户提供的 Chi-square test 题目照片。
+        资料性质：2026-2027 学年秋学期（24级）课堂练习；不计分，作考勤。
+        整理说明：保留原卷编号；日期由用户确认。
+        来源记录：MSL2-PRACTICE-CHI-SQUARE。
+        -->
+
+        > **日期：** 2026.10.12  
+        > **周次：** 秋第 5 周周一  
+        > **性质：** 课堂练习 · 不计分 · 作考勤
+
+        1. A researcher aims to investigate whether smoking status is associated with the presence of lung disease in adults. A sample of 200 individuals is classified according to their smoking status and lung disease status as shown below. (alpha = 0.05, round all intermediate and final calculations to two decimal places)
+
+            |  | Lung Disease | No Lung Disease | Total |
+            | --- | ---: | ---: | ---: |
+            | Smoker | 40 | 60 | 100 |
+            | Non-Smoker | 20 | 80 | 100 |
+            | Total | 60 | 140 | 200 |
+
+            Please fill in the expected frequencies below:
+
+            |  | Lung Disease | No Lung Disease |
+            | --- | --- | --- |
+            | Smoker |  |  |
+            | Non-Smoker |  |  |
+
+            Please perform the Chi-square test and draw a conclusion.
+
+        2. A public-health researcher wants to determine whether the ABO blood-group distribution in a community matches a specified reference distribution.
+
+            The researcher randomly selects 200 unrelated adults from a large community and records each participant’s blood group once. Assume that the observations are independent.
+
+            | Blood group | Reference proportion | Observed number of participants |
+            | --- | ---: | ---: |
+            | O | 0.40 | 100 |
+            | A | 0.30 | 50 |
+            | B | 0.20 | 30 |
+            | AB | 0.10 | 20 |
+            | Total | 1.00 | 200 |
+
+            At a significance level of 0.05, is there evidence that the community’s blood-group distribution differs from the reference distribution?
+
+        </section>
+
+    === "练习 2"
+
+        <section class="quiz-collection-section" id="anova-practice" data-export-title="练习 2：One-way ANOVA" data-export-group="practice-and-examples" data-export-group-title="不计分课堂练习（作考勤）" markdown="1">
+
+        ### 练习 2：One-way ANOVA {#anova-practice-title .resource-panel-title}
 
         <!--
         source-attribution
@@ -441,11 +492,13 @@ hide:
         来源记录：MSL2-ANOVA-1029。
         -->
 
-        > **日期：** 2026.10.29<br>
-        > **周次：** 秋第 7 周周四<br>
+        > **日期：** 2026.10.29  
+        > **周次：** 秋第 7 周周四  
         > **性质：** 课堂练习 · 不计分 · 作考勤
 
-        A researcher investigates whether mean basal oxygen consumption differs among healthy controls, patients with high-tension glaucoma, and patients with normal-tension glaucoma. Oxygen consumption rate (OCR) is measured in pmol oxygen per 100,000 cells.
+        A researcher investigates whether mean basal oxygen consumption in blood immune cells differs among healthy controls, participants with high-tension glaucoma, and participants with normal-tension glaucoma. The published group summaries are shown below.
+
+        Oxygen consumption rate (OCR) is measured in pmol oxygen/min per 100,000 cells.
 
         | Group | n | Mean OCR | SD |
         | --- | ---: | ---: | ---: |
@@ -463,22 +516,250 @@ hide:
 
         #### B
 
-        Calculate the sums of squares and mean squares, complete the ANOVA table, and show your working. Round the values.
+        Calculate the sums of squares and mean squares, complete the ANOVA table, and show your working.（保留两位小数）
 
         | Source of variation | SS | df | MS | F |
         | --- | ---: | ---: | ---: | ---: |
         | Between groups |  |  |  |  |
-        | Within groups |  |  | — | — |
+        | Within groups |  |  |  | — |
         | Total |  |  | — | — |
 
         #### C
 
-        Report the critical F value at α = 0.05 and the degrees of freedom used. State your decision at α = 0.05 and draw a conclusion in the context of the study.
+        Report the critical F value (α = 0.05) and the degrees of freedom used. State your decision at α = 0.05 and draw a conclusion in the context of the study.
 
         #### D
 
         Does this observational comparison establish that glaucoma causes a difference in OCR? Explain.
 
-        > **题目数据来源：** Perritt et al., Nature Medicine (2024), DOI: 10.1038/s41591-024-03068-6
+        > **题目数据来源：** Perritt et al., Nature Medicine (2024), Fig. 1a, DOI: 10.1038/s41591-024-03068-6
+
+        </section>
+
+    === "练习 3"
+
+        <section class="quiz-collection-section" id="practice-20261102" data-export-title="练习 3：Simple linear regression and correlation" data-export-group="practice-and-examples" data-export-group-title="不计分课堂练习（作考勤）" markdown="1">
+
+        ### 练习 3：Simple linear regression and correlation {#practice-20261102-title .resource-panel-title}
+
+        <!--
+        source-attribution
+        贡献者：吴宗泽（资料提供）。
+        原始材料：猫体重与心脏重量回归题照片；同次练习纸背面题目 PDF。
+        资料性质：2026-2027 学年秋学期（24级）课堂练习；不计分，作考勤。
+        整理说明：日期、同次练习关系与考核性质由用户确认；按原材料转录题目与数据，不补写答案。
+        来源记录：MSL2-PRACTICE-20261102。
+        -->
+
+        > **日期：** 2026.11.02  
+        > **周次：** 秋第 8 周周一  
+        > **性质：** 课堂练习 · 不计分 · 作考勤
+
+        #### 部分 1
+
+        An anatomical study provides body weight x (kg) and heart weight y (g) for 144 adult cats. Consider a simple linear regression of heart weight on body weight, pooling the male and female cats.
+
+        | n | Σx | Σy | Σx² | Σy² | Σxy |
+        | ---: | ---: | ---: | ---: | ---: | ---: |
+        | 144 | 392.2 | 1530.8 | 1101.88 | 17120.88 | 4305.17 |
+
+        A. State the null and alternative hypotheses for the regression F-test.
+
+        B. Calculate Lxx, Lyy and Lxy, then obtain b and a for ŷ = bx + a. Calculate Pearson’s correlation coefficient r and complete the F table.
+
+        | Source of variation | SS | df | MS | F |
+        | --- | ---: | ---: | ---: | ---: |
+        | Regression |  |  |  |  |
+        | Residual |  |  |  | — |
+        | Total |  | — | — | — |
+
+        C. Give the critical F value and degrees of freedom. State the decision at α = 0.05 and interpret the result.
+
+        D. For a cat with body weight 2 kg and heart weight 7 g, calculate the fitted heart weight and residual. Interpret the sign of the residual.
+
+        > **题目数据来源：** Fisher, Biometrics (1947), 3:65–68, DOI: 10.2307/3001641；individual data: MASS package, cats dataset.
+
+        #### 部分 2
+
+        **Question 1**
+
+        Musculoskeletal neck-and-shoulder disorders are all too common among office staff who perform repetitive tasks using visual display units. The article “Upper-Arm Elevation During Office Work” reported on a study to determine whether more varied work conditions would have any impact on arm movement. The data below was obtained from a sample of subjects.
+
+        The two measurements from each subject were obtained 18 months apart. During this period, work conditions were changed. Does the data suggest that true average time during which elevation is below 30° differs after the change from what it was before the change?
+
+        | Subject | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+        | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+        | Before | 81 | 87 | 86 | 82 | 90 | 86 | 96 | 73 |
+        | After | 78 | 91 | 78 | 78 | 84 | 67 | 92 | 70 |
+        | Difference | 3 | −4 | 8 | 4 | 6 | 19 | 4 | 3 |
+
+        | Subject | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+        | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+        | Before | 74 | 75 | 72 | 80 | 66 | 72 | 56 | 82 |
+        | After | 58 | 62 | 70 | 58 | 66 | 60 | 65 | 73 |
+        | Difference | 16 | 13 | 2 | 22 | 0 | 12 | −9 | 9 |
+
+        - What hypothesis testing method should be applied?
+        - Is it a one-sided or two-sided test?
+        - What is the degree of freedom?
+        - What is the conclusion?
+
+        **Question 2**
+
+        The following data describes an experiment in which 4 different types of boxes were compared with respect to compression strength (lb). Are they equal?
+
+        | Type of box | Compression strength (lb) | Sample mean | Sample SD |
+        | --- | --- | ---: | ---: |
+        | 1 | 655.5, 788.3, 734.3, 721.4, 679.1, 699.4 | 713.00 | 46.55 |
+        | 2 | 789.2, 772.5, 786.9, 686.1, 732.1, 774.8 | 756.93 | 40.34 |
+        | 3 | 737.1, 639.0, 696.3, 671.7, 717.2, 727.1 | 698.07 | 37.20 |
+        | 4 | 535.1, 628.7, 542.4, 559.0, 586.9, 520.0 | 562.02 | 39.87 |
+
+        Grand mean = 682.50
+
+        - What hypothesis testing method should be applied?
+        - The degree of freedom?
+        - What is the conclusion?
+
+        **Question 3**
+
+        Is there a significant difference between the fitness results for football players and ballet dancers?
+
+        | Ballet dancers | Football players |
+        | ---: | ---: |
+        | 89.2 | 79.3 |
+        | 78.2 | 78.3 |
+        | 89.3 | 85.3 |
+        | 88.3 | 79.3 |
+        | 87.3 | 88.9 |
+        | 90.1 | 91.2 |
+        | 95.2 | 87.2 |
+        | 94.3 | 89.2 |
+        | 78.3 | 93.3 |
+        | 89.3 | 79.9 |
+
+        $\bar{x}_1 = 87.95$, $\bar{x}_2 = 85.19$, $s_1^2 = 32.38$, $s_2^2 = 31.18$
+
+        - What hypothesis testing method should be applied?
+        - Is it a one-sided or two-sided test?
+        - What is the degree of freedom?
+        - What is the conclusion?
+
+        **Question 4**
+
+        Mean FEV by height group for boys ages 10–15 in Tecumseh, Michigan:
+
+        | Height (cm) | Mean FEV (L) | Height (cm) | Mean FEV (L) |
+        | ---: | ---: | ---: | ---: |
+        | 134 | 1.7 | 158 | 2.7 |
+        | 138 | 1.9 | 162 | 3.0 |
+        | 142 | 2.0 | 166 | 3.1 |
+        | 146 | 2.1 | 170 | 3.4 |
+        | 150 | 2.2 | 174 | 3.8 |
+        | 154 | 2.5 | 178 | 3.9 |
+
+        The middle value of each 4-cm height group is given here. Source: Reprinted with permission of the American Review of Respiratory Disease, 108, 258–272, 1973.
+
+        Please calculate the fitting line between Height (x) and FEV (y), and use F-test to prove whether the regression is significant.
+
+        $\sum_{i=1}^{12} x_i = 1872$, $\sum_{i=1}^{12} x_i^2 = 294320$, $\sum_{i=1}^{12} y_i = 32.3$, $\sum_{i=1}^{12} y_i^2 = 93.11$, $\sum_{i=1}^{12} x_i y_i = 5156.20$
+
+        **Question 5**
+
+        Last year, five randomly selected students took a math aptitude test before they began their statistics course. In the table below, the xi column shows scores on the aptitude test. Similarly, the yi column shows statistics grades.
+
+        | Student | xi | yi | xi − x | yi − y | (xi − x)² | (yi − y)² | (xi − x)(yi − y) |
+        | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+        | 1 | 95 | 85 | 17 | 8 | 289 | 64 | 136 |
+        | 2 | 85 | 95 | 7 | 18 | 49 | 324 | 126 |
+        | 3 | 80 | 70 | 2 | −7 | 4 | 49 | −14 |
+        | 4 | 70 | 65 | −8 | −12 | 64 | 144 | 96 |
+        | 5 | 60 | 70 | −18 | −7 | 324 | 49 | 126 |
+        | Sum | 390 | 385 |  |  | 730 | 630 | 470 |
+        | Mean | 78 | 77 |  |  |  |  |  |
+
+        What linear regression equation best predicts statistics performance, based on math aptitude scores? Please use t-test to prove whether the regression is significant. How well does the regression equation fit the data?
+
+        **Question 6**
+
+        Following is the data on corn yield x and peanut yield y (mT/Ha) for eight different types of soil. Please calculate the correlation coefficient.
+
+        | x | 2.4 | 3.4 | 4.6 | 3.7 | 2.2 | 3.3 | 4.0 | 2.1 |
+        | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+        | y | 1.33 | 2.12 | 1.80 | 1.65 | 2.00 | 1.76 | 2.11 | 1.63 |
+
+        **Question 7**
+
+        A newspaper reported on an experiment in which 13 computer-proficient medical professionals were timed both while retrieving an image from a library of slides and while retrieving the same image from a computer database with a Web front end. Is there a significant difference between the two ways? What is the 95% CI of the difference?
+
+        | Subject | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
+        | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+        | Slide | 30 | 35 | 40 | 25 | 20 | 30 | 35 | 62 | 40 | 51 | 25 | 42 | 33 |
+        | Digital | 25 | 16 | 15 | 15 | 10 | 20 | 7 | 16 | 15 | 13 | 11 | 19 | 19 |
+
+        **Question 8**
+
+        In the dataset "Popular Kids," students in grades 4–6 were asked whether good grades, athletic ability, or popularity was most important to them. A two-way table separating the students by grade and by choice of most important factor is shown below:
+
+        | Goals | Grade 4 | Grade 5 | Grade 6 | Total |
+        | --- | ---: | ---: | ---: | ---: |
+        | Grades | 49 | 50 | 69 | 168 |
+        | Popular | 24 | 36 | 38 | 98 |
+        | Sports | 19 | 22 | 28 | 69 |
+        | Total | 92 | 108 | 135 | 335 |
+
+        Is there a significant difference among the students’ choices by grade?
+
+        </section>
+
+    === "练习 4"
+
+        <section class="quiz-collection-section" id="practice-beauty-contest" data-export-title="练习 4：Quiz-4 Beauty Contest" data-export-group="practice-and-examples" data-export-group-title="不计分课堂练习（作考勤）" markdown="1">
+
+        ### 练习 4：Quiz-4 Beauty Contest {#practice-beauty-contest-title .resource-panel-title}
+
+        <!--
+        source-attribution
+        原始材料：用户提供的 Beauty Contest 题目照片、inbox 中同题照片及课堂游戏规则照片。
+        资料性质：2026-2027 学年秋学期（24级）课堂练习；不计分，作考勤。
+        整理说明：保留原卷编号；日期、两轮游戏安排及小测数据来源由用户确认，游戏规则根据课堂照片整理。
+        来源记录：MSL2-PRACTICE-BEAUTY-CONTEST。
+        -->
+
+        > **日期：** 2026.11.05  
+        > **周次：** 秋第 8 周周四  
+        > **性质：** 课堂练习 · 不计分 · 作考勤
+
+        游戏共进行了两轮：第一轮为试玩，第二轮为正式游戏。小测使用两轮游戏的数据。
+
+        #### 游戏规则
+
+        **一、获胜方法：**在 [0, 100] 之间选出一个整数，所选数字与“目标值”（8 组均值 × 0.7）差值最小的组获胜。
+
+        **二、流程与提交**
+
+        - **限时决策：**各组讨论限时 5 分钟。
+        - **同时提交：**时间截止时，8 位组长必须同时上交纸条（纸条须写明：组号、所选整数）。如：“1组，50”。（漏写组号直接 out）
+        - **并列淘汰：**若最接近的数字被两组或以上同时选中，这些小组直接失去本轮获胜资格（但其数字仍计入总均值）。
+
+        #### 题目
+
+        1. 我们想要比较两轮分数是否存在显著差异（alpha = 0.05）。
+
+            a. Which hypothesis-testing method should be used? (Also specify whether the test should be one-sided or two-sided.)
+
+            b. State the null and alternative hypotheses.
+
+            c. Compute the test statistic and the degrees of freedom.
+
+            d. Using α = 0.05, what is the critical value, and what is your conclusion?
+
+        2. 请计算第一轮的分数（r1, x）和第二轮的分数（r2, y）之间的 simple linear regression model y = bx + a 中的 b、a 值，并利用 F-test 分析该 regression 是否显著（alpha = 0.05）。
+
+            | Source of variation | SS | df | MS | F |
+            | --- | ---: | ---: | ---: | ---: |
+            | Regression |  |  |  |  |
+            | Residual |  |  |  | — |
+            | Total |  | — | — | — |
 
         </section>
